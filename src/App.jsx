@@ -33,7 +33,7 @@ function App() {
   // const [loading, setLoading] = useState(true); // Removed preloader state
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-white overflow-hidden">
         <div className="flex flex-col min-h-screen">
