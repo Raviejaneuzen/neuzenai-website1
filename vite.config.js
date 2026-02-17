@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/neuzenai-website1/', // Set to your repository name
+  base: './', // Use relative paths for assets
   server: {
     proxy: {
       '/wp-json': {
